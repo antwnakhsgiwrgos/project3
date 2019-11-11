@@ -1,5 +1,14 @@
+const express = require('express');
 const chalk = require('chalk');
 const products = require("./products.json");
+const app = express();
+app.listen(5000);
+app.get("/" , (req,res) => {
+    res.send("welcome to our store");
+    });
+app.get("/products" , (req,res) => {
+    res.json(products);
+});
 
 //console.table(products);
 //console.log(products.length);
