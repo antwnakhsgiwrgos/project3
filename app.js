@@ -31,7 +31,7 @@ console.log("sum:" + sum);
 console.log("avg:" + avg);
 console.log("max:" + max);
 console.log("min:" + min);
-
+//
 
 
 
